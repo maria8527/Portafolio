@@ -39,7 +39,7 @@ with col1:
  url = "https://seriestiempo-nrqoiwiw7haqmd9scvdwgc.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
-st.subheader("Regresión Logística")
+ st.subheader("Regresión Logística")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
  st.write("Explora cómo un modelo de clasificación predice si lloverá mañana, analizando variables, umbrales y errores de predicción.") 
@@ -68,7 +68,7 @@ with col2:
  url = "https://pronosticocornare-lp8jr5cyd7d58kmifzf5d6.streamlit.app/"
  st.write(f"Transcriptor: [Enlace]({url})")
 
-st.subheader("Clasificación de Fertilidad de Suelos con KNN")
+ st.subheader("Clasificación de Fertilidad de Suelos con KNN")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
  st.write("Aplica el algoritmo KNN para clasificar la fertilidad de los suelos en niveles bajo, medio o alto a partir de sus propiedades químicas.") 
